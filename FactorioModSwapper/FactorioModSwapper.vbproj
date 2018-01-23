@@ -69,11 +69,11 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.vb">
+    <Compile Include="FactorioModSwitcher.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <Compile Include="FactorioModSwitcher.Designer.vb">
+      <DependentUpon>FactorioModSwitcher.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -91,13 +91,34 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="v15confirmation.Designer.vb">
+      <DependentUpon>v15confirmation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="v15confirmation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="v16confirmation.Designer.vb">
+      <DependentUpon>v16confirmation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="v16confirmation.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="FactorioModSwitcher.resx">
+      <DependentUpon>FactorioModSwitcher.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="v15confirmation.resx">
+      <DependentUpon>v15confirmation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="v16confirmation.resx">
+      <DependentUpon>v16confirmation.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

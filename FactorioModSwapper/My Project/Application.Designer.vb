@@ -32,7 +32,7 @@ Namespace My
 
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()> _
         Protected Overrides Sub OnCreateMainForm()
-            Me.MainForm = Global.FactorioModSwapper.Form1
+            Me.MainForm = Global.FactorioModSwapper.FactorioModSwitcher
         End Sub
     End Class
 End Namespace

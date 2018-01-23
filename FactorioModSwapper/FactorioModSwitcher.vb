@@ -1,7 +1,7 @@
 ﻿Imports System
 Imports System.IO
 Imports System.Collections
-'Test
+
 Public Class FactorioModSwitcher
     Public modPath =
         Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) &

@@ -4,3 +4,17 @@
 \\bl-stu-fs01.student.northamptoncollege.ac.uk\homeareas$\S\SOR17216977\Downloads\ModSwitcher\FactorioModSwapper\obj\Debug\FactorioModSwapper.v16confirmation.resources
 \\bl-stu-fs01.student.northamptoncollege.ac.uk\homeareas$\S\SOR17216977\Downloads\ModSwitcher\FactorioModSwapper\obj\Debug\FactorioModSwapper.vbproj.GenerateResource.Cache
 \\bl-stu-fs01.student.northamptoncollege.ac.uk\homeareas$\S\SOR17216977\Downloads\ModSwitcher\FactorioModSwapper\obj\Debug\FactorioModSwapper.pdb
+D:\FactorioModSwapper.exe
+C:\Users\Renaldas\Documents\GitHub\FactorioModSwapper\FactorioModSwapper\obj\Debug\FactorioModSwapper.FactorioModSwitcher.resources
+C:\Users\Renaldas\Documents\GitHub\FactorioModSwapper\FactorioModSwapper\obj\Debug\FactorioModSwapper.Resources.resources
+C:\Users\Renaldas\Documents\GitHub\FactorioModSwapper\FactorioModSwapper\obj\Debug\FactorioModSwapper.v15confirmation.resources
+C:\Users\Renaldas\Documents\GitHub\FactorioModSwapper\FactorioModSwapper\obj\Debug\FactorioModSwapper.v16confirmation.resources
+C:\Users\Renaldas\Documents\GitHub\FactorioModSwapper\FactorioModSwapper\obj\Debug\FactorioModSwapper.vbproj.GenerateResource.Cache
+C:\Users\Renaldas\Documents\GitHub\FactorioModSwapper\FactorioModSwapper\obj\Debug\FactorioModSwapper.vbproj.CoreCompileInputs.cache
+C:\Users\Renaldas\Documents\GitHub\FactorioModSwapper\FactorioModSwapper\obj\Debug\FactorioModSwapper.exe
+C:\Users\Renaldas\Documents\GitHub\FactorioModSwapper\FactorioModSwapper\obj\Debug\FactorioModSwapper.xml
+C:\Users\Renaldas\Documents\GitHub\FactorioModSwapper\FactorioModSwapper\obj\Debug\FactorioModSwapper.pdb
+C:\Users\Renaldas\Documents\GitHub\FactorioModSwapper\FactorioModSwapper\bin\output\FactorioModSwapper.exe
+C:\Users\Renaldas\Documents\GitHub\FactorioModSwapper\FactorioModSwapper\bin\output\FactorioModSwapper.pdb
+C:\Users\Renaldas\Documents\GitHub\FactorioModSwapper\FactorioModSwapper\bin\output\FactorioModSwapper.xml
+C:\Users\Renaldas\Documents\GitHub\FactorioModSwapper\FactorioModSwapper\obj\Debug\FactorioModSwapper.vbprojResolveAssemblyReference.cache

@@ -26,6 +26,9 @@ Partial Class FactorioModSwitcher
         Me.v16restoreConfirm = New System.Windows.Forms.Button()
         Me.v15backup = New System.Windows.Forms.Button()
         Me.v15restoreConfirm = New System.Windows.Forms.Button()
+        Me.currentModCheck = New System.Windows.Forms.Label()
+        Me.v15ModBackupCheck = New System.Windows.Forms.Label()
+        Me.v16ModBackupCheck = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'v16backup
@@ -66,11 +69,41 @@ Partial Class FactorioModSwitcher
         Me.v15restoreConfirm.Text = "Restore v0.15 Mods"
         Me.v15restoreConfirm.UseVisualStyleBackColor = True
         '
+        'currentModCheck
+        '
+        Me.currentModCheck.AutoSize = True
+        Me.currentModCheck.Location = New System.Drawing.Point(12, 148)
+        Me.currentModCheck.Name = "currentModCheck"
+        Me.currentModCheck.Size = New System.Drawing.Size(169, 13)
+        Me.currentModCheck.TabIndex = 4
+        Me.currentModCheck.Text = "Checking for current mods folder..."
+        '
+        'v15ModBackupCheck
+        '
+        Me.v15ModBackupCheck.AutoSize = True
+        Me.v15ModBackupCheck.Location = New System.Drawing.Point(12, 161)
+        Me.v15ModBackupCheck.Name = "v15ModBackupCheck"
+        Me.v15ModBackupCheck.Size = New System.Drawing.Size(173, 13)
+        Me.v15ModBackupCheck.TabIndex = 5
+        Me.v15ModBackupCheck.Text = "Checking for v0.15 mod backups..."
+        '
+        'v16ModBackupCheck
+        '
+        Me.v16ModBackupCheck.AutoSize = True
+        Me.v16ModBackupCheck.Location = New System.Drawing.Point(12, 174)
+        Me.v16ModBackupCheck.Name = "v16ModBackupCheck"
+        Me.v16ModBackupCheck.Size = New System.Drawing.Size(173, 13)
+        Me.v16ModBackupCheck.TabIndex = 6
+        Me.v16ModBackupCheck.Text = "Checking for v0.16 mod backups..."
+        '
         'FactorioModSwitcher
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(378, 198)
+        Me.Controls.Add(Me.v16ModBackupCheck)
+        Me.Controls.Add(Me.v15ModBackupCheck)
+        Me.Controls.Add(Me.currentModCheck)
         Me.Controls.Add(Me.v15restoreConfirm)
         Me.Controls.Add(Me.v15backup)
         Me.Controls.Add(Me.v16restoreConfirm)
@@ -79,6 +112,7 @@ Partial Class FactorioModSwitcher
         Me.Name = "FactorioModSwitcher"
         Me.Text = "Factorio Mod Switcher"
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
@@ -86,4 +120,7 @@ Partial Class FactorioModSwitcher
     Friend WithEvents v16restoreConfirm As Button
     Friend WithEvents v15backup As Button
     Friend WithEvents v15restoreConfirm As Button
+    Friend WithEvents currentModCheck As Label
+    Friend WithEvents v15ModBackupCheck As Label
+    Friend WithEvents v16ModBackupCheck As Label
 End Class

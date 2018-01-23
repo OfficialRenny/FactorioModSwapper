@@ -1,15 +1,15 @@
 ﻿Imports System
 Imports System.IO
 Imports System.Collections
-
+'Test
 Public Class FactorioModSwitcher
-    Dim modPath =
+    Public modPath =
         Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) &
         "\Factorio\mods\"
-    Dim v16backupVar =
+    Public v16backupVar =
         Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) &
         "\Factorio\misc\0.16\mods\"
-    Dim v15backupVar =
+    Public v15backupVar =
         Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) &
         "\Factorio\misc\0.15\mods\"
 

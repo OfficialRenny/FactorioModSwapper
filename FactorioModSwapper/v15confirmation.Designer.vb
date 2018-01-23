@@ -29,7 +29,8 @@ Partial Class v15confirmation
         '
         'v15back
         '
-        Me.v15back.Location = New System.Drawing.Point(180, 123)
+        Me.v15back.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.v15back.Location = New System.Drawing.Point(180, 54)
         Me.v15back.Name = "v15back"
         Me.v15back.Size = New System.Drawing.Size(75, 23)
         Me.v15back.TabIndex = 5
@@ -38,7 +39,7 @@ Partial Class v15confirmation
         '
         'v15continue
         '
-        Me.v15continue.Location = New System.Drawing.Point(12, 123)
+        Me.v15continue.Location = New System.Drawing.Point(15, 54)
         Me.v15continue.Name = "v15continue"
         Me.v15continue.Size = New System.Drawing.Size(75, 23)
         Me.v15continue.TabIndex = 4
@@ -47,24 +48,23 @@ Partial Class v15confirmation
         '
         'Label1
         '
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(12, 9)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(243, 89)
+        Me.Label1.Size = New System.Drawing.Size(243, 42)
         Me.Label1.TabIndex = 3
-        Me.Label1.Text = "Restoring mods will delete your currently installed mods, make sure you have made" &
+        Me.Label1.Text = "Restoring mods will delete your currently installed mods, make sure you have made" & _
     " a backup!"
         '
         'v15confirmation
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(267, 158)
+        Me.ClientSize = New System.Drawing.Size(267, 92)
         Me.Controls.Add(Me.v15back)
         Me.Controls.Add(Me.v15continue)
         Me.Controls.Add(Me.Label1)
         Me.Name = "v15confirmation"
-        Me.Text = "Please confirm"
+        Me.Text = "Please Confirm"
         Me.ResumeLayout(False)
 
     End Sub

@@ -48,7 +48,8 @@ Partial Class FactorioModSwitcher
         '
         'v15backup
         '
-        Me.v15backup.Location = New System.Drawing.Point(161, 12)
+        Me.v15backup.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.v15backup.Location = New System.Drawing.Point(250, 12)
         Me.v15backup.Name = "v15backup"
         Me.v15backup.Size = New System.Drawing.Size(113, 45)
         Me.v15backup.TabIndex = 2
@@ -57,7 +58,8 @@ Partial Class FactorioModSwitcher
         '
         'v15restoreConfirm
         '
-        Me.v15restoreConfirm.Location = New System.Drawing.Point(161, 90)
+        Me.v15restoreConfirm.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.v15restoreConfirm.Location = New System.Drawing.Point(250, 90)
         Me.v15restoreConfirm.Name = "v15restoreConfirm"
         Me.v15restoreConfirm.Size = New System.Drawing.Size(113, 45)
         Me.v15restoreConfirm.TabIndex = 3
@@ -68,7 +70,7 @@ Partial Class FactorioModSwitcher
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(297, 216)
+        Me.ClientSize = New System.Drawing.Size(378, 198)
         Me.Controls.Add(Me.v15restoreConfirm)
         Me.Controls.Add(Me.v15backup)
         Me.Controls.Add(Me.v16restoreConfirm)

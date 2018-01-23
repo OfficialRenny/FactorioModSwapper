@@ -1,0 +1,6 @@
+\\bl-stu-fs01.student.northamptoncollege.ac.uk\homeareas$\S\SOR17216977\Downloads\ModSwitcher\FactorioModSwapper\obj\Debug\FactorioModSwapper.FactorioModSwitcher.resources
+\\bl-stu-fs01.student.northamptoncollege.ac.uk\homeareas$\S\SOR17216977\Downloads\ModSwitcher\FactorioModSwapper\obj\Debug\FactorioModSwapper.Resources.resources
+\\bl-stu-fs01.student.northamptoncollege.ac.uk\homeareas$\S\SOR17216977\Downloads\ModSwitcher\FactorioModSwapper\obj\Debug\FactorioModSwapper.v15confirmation.resources
+\\bl-stu-fs01.student.northamptoncollege.ac.uk\homeareas$\S\SOR17216977\Downloads\ModSwitcher\FactorioModSwapper\obj\Debug\FactorioModSwapper.v16confirmation.resources
+\\bl-stu-fs01.student.northamptoncollege.ac.uk\homeareas$\S\SOR17216977\Downloads\ModSwitcher\FactorioModSwapper\obj\Debug\FactorioModSwapper.vbproj.GenerateResource.Cache
+\\bl-stu-fs01.student.northamptoncollege.ac.uk\homeareas$\S\SOR17216977\Downloads\ModSwitcher\FactorioModSwapper\obj\Debug\FactorioModSwapper.pdb
